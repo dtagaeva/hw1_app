@@ -4,10 +4,10 @@ const {Client, Pool} = require('pg');
 const postgres = new Client();
 
 const {
-    PGHOST: HOST,
-    PGUSER: USER,
-    PGPASSWORD: PASSWORD,
-    PGDATABASE: DB,
+    PGHOST: 10.0.0.24,
+    PGUSER: postgres,
+    PGPASSWORD: black313,
+    PGDATABASE: postgres,
 } = process.env;
 
 let pool;
